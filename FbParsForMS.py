@@ -1,6 +1,5 @@
 from facebook_scraper import get_profile, get_posts, get_group_info
 
-
 class Parser:
     def __init__(self):
         self.users, self.posts, self.groups = {}, {}, {}
@@ -47,7 +46,6 @@ class Parser:
 
     def export(self):
         return([self.users, self.posts, self.groups])
-
 
 if __name__ == "__main__":
     par = Parser()

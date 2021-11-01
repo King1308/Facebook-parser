@@ -71,21 +71,26 @@ def get_group_url():
 
 
 def exel_users(exp):
-    df = pd.DataFrame({'Name': exp["names"], 'ID': exp["ids"], 'Pictures': exp["pictures"], 'Contacts': exp["contacts"], 'Family': exp["family"], 'Place lived': exp["place"],
-                      'Work': exp["work"], 'Life Events': exp["events"], 'Basic Info': exp["info"], 'Education': exp["education"], 'Relationship': exp["relationship"]})
+    l = {}
+    for k, v in exp.items():
+        l[k.title()] = v
+    df = pd.DataFrame(l)
     df.to_excel('exports/users.xlsx')
 
 
 def exel_posts(exp):
-    l = {"Shared text": exp["shared_text"], "Post ID": exp["post_id"], "Text": exp["text"], "Posted text": exp["post_text"], "Publication time": exp["time"], "Tine stamp": exp["timestamp"], "Image": exp["image"], "Image lowquality": exp["image_lowquality"], "Images": exp["images"], "Images description": exp["images_description"], "images lowquality": exp["images_lowquality"], "Images lowquality description": exp["images_lowquality_description"], "Video": exp["video"], "Video duration(sec)": exp["video_duration_seconds"], "Video width": exp["video_width"], "Video height": exp["video_height"], "Video ID": exp["video_id"], "Video quality": exp["video_quality"], "Video siza(MB)": exp["video_size_MB"], "Video thumbnail": exp["video_thumbnail"], "Video watches": exp["video_watches"],
-         "Likes": exp["likes"], "Comments": exp["comments"], "Shares": exp["shares"], "Post url": exp["post_url"], "Link": exp["link"], "links": exp["links"], "User ID": exp["user_id"], "Username": exp["username"], "User URL": exp["user_url"], "Is live": exp["is_live"], "Fatcheck": exp["factcheck"], "Shared post ID": exp["shared_post_id"], "Shared time": exp["shared_time"], "Shared user ID": exp["shared_user_id"], "Shared username": exp["shared_username"], "Shared post url": exp["shared_post_url"], "Available": exp["available"], "Full comments": exp["comments_full"], "Reactors": exp["reactors"], "W3 fb url": exp["w3_fb_url"], "Reactions": exp["reactions"], "Reactions count": exp["reaction_count"], "With": exp["with"], "Image ID": exp["image_id"], "Image IDs": exp["image_ids"]}
+    l = {}
+    for k, v in exp.items():
+        l[k.title()] = v
     df = pd.DataFrame(l)
     df.to_excel('exports/post.xlsx')
 
 
 def exel_group(exp):
-    df = pd.DataFrame({'Admins': exp["admins"], 'ID': exp["id"],
-                       'Members': exp["members"], 'Name': exp["name"], 'Type': exp["type"]})
+    l = {}
+    for k, v in exp.items():
+        l[k.title()] = v
+    df = pd.DataFrame(l)
     df.to_excel('exports/groupes.xlsx')
 
 
