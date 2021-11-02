@@ -3,8 +3,9 @@ from PyQt5.QtWidgets import QMessageBox
 import pandas as pd
 import subprocess
 
-from FbParsForMS import Parser
+from FbParsForMS import Parser, Setings
 pars = Parser()
+settings = Setings().get()
 
 app = QtWidgets.QApplication([])
 ui = uic.loadUi("ui.ui")
@@ -96,7 +97,7 @@ def exel_group(exp):
 
 def getuser():
     try:
-        pars.get_user(get_us_url())
+        pars.get_user(get_us_url(), settings["collect_cookies"])
         export = pars.export()
         ui.usExL.setText(str(export[0]))
         exel_users(export[0])
@@ -109,7 +110,7 @@ def getusers():
     try:
         urls = get_us_urls()
         for i in range(len(urls)):
-            pars.get_user(urls[i])
+            pars.get_user(urls[i], settings["collect_cookies"])
         export = pars.export()
         exel_users(export[0])
         compleat()
@@ -122,7 +123,7 @@ def getpost():
         pars = Parser()
         url = get_post_urls()
         il = ui.postPInp.value()
-        pars.get_postes(url, il)
+        pars.get_postes(url, il, settings["collect_cookies"])
         export = pars.export()
         ui.postExL.setText(str(export[1]["text"]))
         exel_posts(export[1])
@@ -133,7 +134,7 @@ def getpost():
 
 def getgroup():
     try:
-        pars.get_group(get_group_url())
+        pars.get_group(get_group_url(), settings["collect_cookies"])
         export = pars.export()
         ui.groupExL.setText(str(export[2]))
         exel_group(export[2])

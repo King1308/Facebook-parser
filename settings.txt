@@ -1,0 +1,4 @@
+collect_cookies=1
+cokie_loggining=0
+login=m.s13082008@gmail.com
+passwd=King_m_s1308200
