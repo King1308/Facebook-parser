@@ -115,11 +115,10 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Для отримання даних про користувачів відкрийте вкладку Users, вставте силки одного формату(детальніше вкладка Converter підрозділ Info) в поле Urls через Enter. Витянуті дані вписуються в файли, але не відображаються в програмі.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:26pt; font-weight:600;&quot;&gt;...&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:26pt; font-weight:600;&quot;&gt;...&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:26pt; font-weight:600;&quot;&gt;...&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:26pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Для конвертації форматів силки: вікрийте вкладку Converter, оберіть клас силки(користувача, поста або групи), вставте силку в поле Url, оберіть в яку сторону треба зконвертувати(скоротити або подовжити) і натисніть Conwert&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Для отримання даних з постів &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:11pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Для отримання даних про групу відкрийте вкладку Group, вставте посилання в поле url адреси, виберіть формат посилання (докладніше на вкладці Converter розділ Info) і натисніть кнопку Get info. Видобуті дані відображаються в текстовому полі внизу у форматі JSON. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Щоб конвертувати формати посилань: відкрийте вкладку Converter, виберіть клас посилань (користувач, публікація або група), вставте посилання в поле Url, виберіть напрямок для конвертування (скоротити чи розширити) і натисніть Convert. &lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:11pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:13pt; font-weight:600;&quot;&gt;Увага:&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;!!! Всі дані зберігаються в папці exports, в форматі txt файла(JSON формат) та в xlsx форматі(exel таблиці)&lt;/span&gt;&lt;/p&gt;
@@ -615,8 +614,8 @@ p, li { white-space: pre-wrap; }
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>100</width>
-            <height>30</height>
+            <width>421</width>
+            <height>135</height>
            </rect>
           </property>
           <attribute name="label">
@@ -627,7 +626,7 @@ p, li { white-space: pre-wrap; }
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>443</width>
+             <width>421</width>
              <height>171</height>
             </rect>
            </property>
@@ -684,7 +683,7 @@ p, li { white-space: pre-wrap; }
                <widget class="QPushButton" name="conUsB">
                 <property name="font">
                  <font>
-                  <pointsize>18</pointsize>
+                  <pointsize>16</pointsize>
                  </font>
                 </property>
                 <property name="text">
@@ -709,8 +708,8 @@ p, li { white-space: pre-wrap; }
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>100</width>
-            <height>30</height>
+            <width>421</width>
+            <height>135</height>
            </rect>
           </property>
           <attribute name="label">
@@ -721,7 +720,7 @@ p, li { white-space: pre-wrap; }
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>443</width>
+             <width>421</width>
              <height>171</height>
             </rect>
            </property>
@@ -778,7 +777,7 @@ p, li { white-space: pre-wrap; }
                <widget class="QPushButton" name="conPoB">
                 <property name="font">
                  <font>
-                  <pointsize>18</pointsize>
+                  <pointsize>16</pointsize>
                  </font>
                 </property>
                 <property name="text">
@@ -815,7 +814,7 @@ p, li { white-space: pre-wrap; }
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>578</width>
+             <width>421</width>
              <height>171</height>
             </rect>
            </property>
@@ -845,7 +844,7 @@ p, li { white-space: pre-wrap; }
                <widget class="QLabel" name="label">
                 <property name="font">
                  <font>
-                  <pointsize>16</pointsize>
+                  <pointsize>10</pointsize>
                  </font>
                 </property>
                 <property name="text">
@@ -857,7 +856,7 @@ p, li { white-space: pre-wrap; }
                <widget class="QComboBox" name="conGrTo">
                 <property name="font">
                  <font>
-                  <pointsize>14</pointsize>
+                  <pointsize>9</pointsize>
                  </font>
                 </property>
                 <item>
@@ -876,7 +875,7 @@ p, li { white-space: pre-wrap; }
                <widget class="QComboBox" name="conGrToW">
                 <property name="font">
                  <font>
-                  <pointsize>14</pointsize>
+                  <pointsize>9</pointsize>
                  </font>
                 </property>
                 <item>
@@ -895,7 +894,7 @@ p, li { white-space: pre-wrap; }
                <widget class="QLabel" name="label_2">
                 <property name="font">
                  <font>
-                  <pointsize>16</pointsize>
+                  <pointsize>10</pointsize>
                  </font>
                 </property>
                 <property name="text">
@@ -907,7 +906,7 @@ p, li { white-space: pre-wrap; }
                <widget class="QComboBox" name="conGrFrW">
                 <property name="font">
                  <font>
-                  <pointsize>14</pointsize>
+                  <pointsize>9</pointsize>
                  </font>
                 </property>
                 <item>
@@ -926,7 +925,7 @@ p, li { white-space: pre-wrap; }
                <widget class="QPushButton" name="conGrB">
                 <property name="font">
                  <font>
-                  <pointsize>14</pointsize>
+                  <pointsize>10</pointsize>
                  </font>
                 </property>
                 <property name="text">
