@@ -21,6 +21,7 @@ class Cookies:
         self.loging = s["cokie_loggining"]
         self.login = s["login"]
         self.passwd = s["passwd"]
+
     def get(self):
         session = requests.Session()
         if self.loging:
@@ -94,5 +95,3 @@ class Parser:
 
 if __name__ == "__main__":
     set = Setings()
-    cook = Cookies(set.get())
-    cook.get()

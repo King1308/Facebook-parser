@@ -68,7 +68,7 @@
         </font>
        </property>
        <property name="text">
-        <string>Get all from Facebook</string>
+        <string>Витянути все з Facebook.com</string>
        </property>
       </widget>
      </item>
@@ -80,12 +80,17 @@
          <height>1000</height>
         </size>
        </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
        <property name="currentIndex">
         <number>0</number>
        </property>
        <widget class="QWidget" name="tab_3">
         <attribute name="title">
-         <string>Info</string>
+         <string>Інформація</string>
         </attribute>
         <widget class="QTextBrowser" name="textBrowser">
          <property name="enabled">
@@ -103,13 +108,13 @@
           <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Roboto'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Roboto'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Інструкція по використанню:&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:11pt; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Для отримання даних про користувача відкрийте вкладку User, вставте силку в поле url, виберіть формат силки(детальніше вкладка Converter підрозділ Info) і клайніть Get info. В текстовому полі внизу відображається витянуті дані у форматі JSON.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:10pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Для отримання даних про користувачів відкрийте вкладку Users, вставте силки одного формату(детальніше вкладка Converter підрозділ Info) в поле Urls через Enter. Витянуті дані вписуються в файли, але не відображаються в програмі.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:10pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:26pt; font-weight:600;&quot;&gt;...&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:26pt; font-weight:600;&quot;&gt;...&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:26pt; font-weight:600;&quot;&gt;...&lt;/span&gt;&lt;/p&gt;
@@ -120,13 +125,13 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;!!! Всі дані зберігаються в папці exports, в форматі txt файла(JSON формат) та в xlsx форматі(exel таблиці)&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Але вони при кожному новому запуску програми скидяються, тож коли спарсили дані копіюйте файли або папку в інакше місце !!!&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Якщо ви помітили якісь помилки у роботі програми, або придумали як би йього поліпшити зверніться до Автора програми(Mychailo Starytskii, telegram: t.me/KingMS1308)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Якщо ви помітили якісь помилки у роботі програми, або придумали як би йього поліпшити зверніться до Автора програми(Mychailo Starytskii, telegram: t.me/KingMS1308)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
         </widget>
        </widget>
        <widget class="QWidget" name="tabWidgetPage1">
         <attribute name="title">
-         <string>User</string>
+         <string>Користувач</string>
         </attribute>
         <widget class="QWidget" name="verticalLayoutWidget">
          <property name="geometry">
@@ -227,8 +232,8 @@ p, li { white-space: pre-wrap; }
              <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Tahoma'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Tahoma'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8.25pt;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
             </property>
             <property name="openExternalLinks">
              <bool>true</bool>
@@ -240,7 +245,7 @@ p, li { white-space: pre-wrap; }
        </widget>
        <widget class="QWidget" name="tabWidgetPage2">
         <attribute name="title">
-         <string>Users</string>
+         <string>Користуваці</string>
         </attribute>
         <widget class="QWidget" name="verticalLayoutWidget_3">
          <property name="geometry">
@@ -323,7 +328,7 @@ p, li { white-space: pre-wrap; }
        </widget>
        <widget class="QWidget" name="tabWidgetPage3">
         <attribute name="title">
-         <string>Posts</string>
+         <string>Пости</string>
         </attribute>
         <widget class="QWidget" name="verticalLayoutWidget_4">
          <property name="geometry">
@@ -431,8 +436,8 @@ p, li { white-space: pre-wrap; }
              <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Tahoma'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Tahoma'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8.25pt;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
             </property>
             <property name="openExternalLinks">
              <bool>true</bool>
@@ -444,7 +449,7 @@ p, li { white-space: pre-wrap; }
        </widget>
        <widget class="QWidget" name="tab_2">
         <attribute name="title">
-         <string>Group</string>
+         <string>Група</string>
         </attribute>
         <widget class="QWidget" name="verticalLayoutWidget_8">
          <property name="geometry">
@@ -545,8 +550,8 @@ p, li { white-space: pre-wrap; }
              <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Tahoma'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Tahoma'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8.25pt;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
             </property>
             <property name="openExternalLinks">
              <bool>true</bool>
@@ -558,7 +563,7 @@ p, li { white-space: pre-wrap; }
        </widget>
        <widget class="QWidget" name="tab">
         <attribute name="title">
-         <string>Converter</string>
+         <string>Перетворювач</string>
         </attribute>
         <widget class="QToolBox" name="toolBox">
          <property name="geometry">
@@ -577,12 +582,12 @@ p, li { white-space: pre-wrap; }
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>421</width>
-            <height>143</height>
+            <width>98</width>
+            <height>28</height>
            </rect>
           </property>
           <attribute name="label">
-           <string>Info</string>
+           <string>Інформація</string>
           </attribute>
           <widget class="QTextBrowser" name="textBrowser_2">
            <property name="enabled">
@@ -600,7 +605,7 @@ p, li { white-space: pre-wrap; }
             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Roboto'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Roboto'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Програма працює з силками типу name, вона не розуміє силки формата facebook.com/name, але для зручності я зробив конвертер з короткої(short):name в довгу(full): facebook.com/name.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
            </property>
           </widget>
@@ -610,19 +615,19 @@ p, li { white-space: pre-wrap; }
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>421</width>
-            <height>143</height>
+            <width>98</width>
+            <height>28</height>
            </rect>
           </property>
           <attribute name="label">
-           <string>User</string>
+           <string>Користувач</string>
           </attribute>
           <widget class="QWidget" name="verticalLayoutWidget_9">
            <property name="geometry">
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>421</width>
+             <width>443</width>
              <height>171</height>
             </rect>
            </property>
@@ -652,11 +657,11 @@ p, li { white-space: pre-wrap; }
                <widget class="QRadioButton" name="conUsRS">
                 <property name="font">
                  <font>
-                  <pointsize>24</pointsize>
+                  <pointsize>20</pointsize>
                  </font>
                 </property>
                 <property name="text">
-                 <string>To short</string>
+                 <string>В коротку</string>
                 </property>
                 <property name="checked">
                  <bool>true</bool>
@@ -667,11 +672,11 @@ p, li { white-space: pre-wrap; }
                <widget class="QRadioButton" name="conUsRF">
                 <property name="font">
                  <font>
-                  <pointsize>24</pointsize>
+                  <pointsize>20</pointsize>
                  </font>
                 </property>
                 <property name="text">
-                 <string>To full</string>
+                 <string>В повну</string>
                 </property>
                </widget>
               </item>
@@ -679,11 +684,11 @@ p, li { white-space: pre-wrap; }
                <widget class="QPushButton" name="conUsB">
                 <property name="font">
                  <font>
-                  <pointsize>24</pointsize>
+                  <pointsize>18</pointsize>
                  </font>
                 </property>
                 <property name="text">
-                 <string>Convert</string>
+                 <string>Перетворити</string>
                 </property>
                </widget>
               </item>
@@ -704,19 +709,19 @@ p, li { white-space: pre-wrap; }
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>421</width>
-            <height>143</height>
+            <width>98</width>
+            <height>28</height>
            </rect>
           </property>
           <attribute name="label">
-           <string>Post</string>
+           <string>Пост</string>
           </attribute>
           <widget class="QWidget" name="verticalLayoutWidget_10">
            <property name="geometry">
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>421</width>
+             <width>443</width>
              <height>171</height>
             </rect>
            </property>
@@ -746,11 +751,11 @@ p, li { white-space: pre-wrap; }
                <widget class="QRadioButton" name="conPoRS">
                 <property name="font">
                  <font>
-                  <pointsize>24</pointsize>
+                  <pointsize>20</pointsize>
                  </font>
                 </property>
                 <property name="text">
-                 <string>To short</string>
+                 <string>В коротку</string>
                 </property>
                 <property name="checked">
                  <bool>true</bool>
@@ -761,11 +766,11 @@ p, li { white-space: pre-wrap; }
                <widget class="QRadioButton" name="conPoRF">
                 <property name="font">
                  <font>
-                  <pointsize>24</pointsize>
+                  <pointsize>20</pointsize>
                  </font>
                 </property>
                 <property name="text">
-                 <string>To full</string>
+                 <string>В повну</string>
                 </property>
                </widget>
               </item>
@@ -773,11 +778,11 @@ p, li { white-space: pre-wrap; }
                <widget class="QPushButton" name="conPoB">
                 <property name="font">
                  <font>
-                  <pointsize>24</pointsize>
+                  <pointsize>18</pointsize>
                  </font>
                 </property>
                 <property name="text">
-                 <string>Convert</string>
+                 <string>Перетворити</string>
                 </property>
                </widget>
               </item>
@@ -798,19 +803,19 @@ p, li { white-space: pre-wrap; }
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>421</width>
-            <height>143</height>
+            <width>98</width>
+            <height>28</height>
            </rect>
           </property>
           <attribute name="label">
-           <string>Group</string>
+           <string>Група</string>
           </attribute>
           <widget class="QWidget" name="verticalLayoutWidget_5">
            <property name="geometry">
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>421</width>
+             <width>578</width>
              <height>171</height>
             </rect>
            </property>
@@ -844,7 +849,7 @@ p, li { white-space: pre-wrap; }
                  </font>
                 </property>
                 <property name="text">
-                 <string>To</string>
+                 <string>В</string>
                 </property>
                </widget>
               </item>
@@ -857,12 +862,12 @@ p, li { white-space: pre-wrap; }
                 </property>
                 <item>
                  <property name="text">
-                  <string>full</string>
+                  <string>повного</string>
                  </property>
                 </item>
                 <item>
                  <property name="text">
-                  <string>short</string>
+                  <string>короткого</string>
                  </property>
                 </item>
                </widget>
@@ -876,12 +881,12 @@ p, li { white-space: pre-wrap; }
                 </property>
                 <item>
                  <property name="text">
-                  <string>user</string>
+                  <string>користувача</string>
                  </property>
                 </item>
                 <item>
                  <property name="text">
-                  <string>group</string>
+                  <string>групи</string>
                  </property>
                 </item>
                </widget>
@@ -894,7 +899,7 @@ p, li { white-space: pre-wrap; }
                  </font>
                 </property>
                 <property name="text">
-                 <string>from</string>
+                 <string>з</string>
                 </property>
                </widget>
               </item>
@@ -907,12 +912,12 @@ p, li { white-space: pre-wrap; }
                 </property>
                 <item>
                  <property name="text">
-                  <string>user</string>
+                  <string>користувача</string>
                  </property>
                 </item>
                 <item>
                  <property name="text">
-                  <string>group</string>
+                  <string>групи</string>
                  </property>
                 </item>
                </widget>
@@ -925,7 +930,7 @@ p, li { white-space: pre-wrap; }
                  </font>
                 </property>
                 <property name="text">
-                 <string>Convert</string>
+                 <string>Перетворити</string>
                 </property>
                </widget>
               </item>

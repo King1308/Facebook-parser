@@ -3,12 +3,17 @@ from PyQt5.QtWidgets import QMessageBox
 import pandas as pd
 import subprocess
 
-from FbParsForMS import Parser, Setings
+from FbParsForMS import Parser, Setings, Cookies
 pars = Parser()
 settings = Setings().get()
+cook = Cookies(settings)
+cook.get()
 
 app = QtWidgets.QApplication([])
-ui = uic.loadUi("ui.ui")
+if settings["language"] == "Ua":
+    ui = uic.loadUi("ua.ui")
+elif settings["language"] == "Eng":
+    ui = uic.loadUi("eng.ui")
 
 
 def compleat():
