@@ -1,1 +1,1 @@
-[{'name': 'fr', 'value': '0daavmgHSVeBiKrFd..BhgYuf.oG.AAA.0.0.BhgYuf.AWW1ZsvJmz8', 'domain': '.facebook.com', 'path': '/', 'secure': True}, {'name': 'sb', 'value': 'n4uBYRensiRDyaZOFL0Yz018', 'domain': '.facebook.com', 'path': '/', 'secure': True}]
+[{'name': 'fr', 'value': '0A1JAW67RGJZAzQFd..BhgZE1.H1.AAA.0.0.BhgZE1.AWWpyJg-wCE', 'domain': '.facebook.com', 'path': '/', 'secure': True}, {'name': 'sb', 'value': 'NZGBYXIvljgYhz-JZRrwb4iq', 'domain': '.facebook.com', 'path': '/', 'secure': True}]

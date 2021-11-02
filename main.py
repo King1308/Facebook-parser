@@ -11,8 +11,8 @@ cook.get()
 
 app = QtWidgets.QApplication([])
 if settings["language"] == "Ua":
-    ui = uic.loadUi("ua.ui")
-elif settings["additional_files/language"] == "Eng":
+    ui = uic.loadUi("additional_files/ua.ui")
+elif settings["language"] == "Eng":
     ui = uic.loadUi("additional_files/eng.ui")
 
 

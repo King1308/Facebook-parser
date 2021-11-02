@@ -176,7 +176,7 @@ p, li { white-space: pre-wrap; }
                <bool>false</bool>
               </property>
               <property name="text">
-               <string>Full</string>
+               <string>Повна</string>
               </property>
               <property name="checked">
                <bool>true</bool>
@@ -192,7 +192,7 @@ p, li { white-space: pre-wrap; }
                </font>
               </property>
               <property name="text">
-               <string>Short</string>
+               <string>Коротка</string>
               </property>
              </widget>
             </item>
@@ -209,7 +209,7 @@ p, li { white-space: pre-wrap; }
                </font>
               </property>
               <property name="text">
-               <string>Get info</string>
+               <string>Дістати дані</string>
               </property>
              </widget>
             </item>
@@ -245,7 +245,7 @@ p, li { white-space: pre-wrap; }
        </widget>
        <widget class="QWidget" name="tabWidgetPage2">
         <attribute name="title">
-         <string>Користуваці</string>
+         <string>Користувачі</string>
         </attribute>
         <widget class="QWidget" name="verticalLayoutWidget_3">
          <property name="geometry">
@@ -277,7 +277,7 @@ p, li { white-space: pre-wrap; }
                <bool>false</bool>
               </property>
               <property name="text">
-               <string>Full</string>
+               <string>Повна</string>
               </property>
               <property name="checked">
                <bool>true</bool>
@@ -293,7 +293,7 @@ p, li { white-space: pre-wrap; }
                </font>
               </property>
               <property name="text">
-               <string>Short</string>
+               <string>Коротка</string>
               </property>
              </widget>
             </item>
@@ -310,7 +310,7 @@ p, li { white-space: pre-wrap; }
                </font>
               </property>
               <property name="text">
-               <string>Get info</string>
+               <string>Дістати дані</string>
               </property>
              </widget>
             </item>
@@ -333,9 +333,9 @@ p, li { white-space: pre-wrap; }
         <widget class="QWidget" name="verticalLayoutWidget_4">
          <property name="geometry">
           <rect>
-           <x>6</x>
-           <y>4</y>
-           <width>411</width>
+           <x>0</x>
+           <y>0</y>
+           <width>421</width>
            <height>251</height>
           </rect>
          </property>
@@ -384,7 +384,7 @@ p, li { white-space: pre-wrap; }
                <bool>false</bool>
               </property>
               <property name="text">
-               <string>Full</string>
+               <string>Повна</string>
               </property>
               <property name="checked">
                <bool>true</bool>
@@ -400,7 +400,7 @@ p, li { white-space: pre-wrap; }
                </font>
               </property>
               <property name="text">
-               <string>Short</string>
+               <string>Коротка</string>
               </property>
              </widget>
             </item>
@@ -413,7 +413,7 @@ p, li { white-space: pre-wrap; }
                </font>
               </property>
               <property name="text">
-               <string>Get info</string>
+               <string>Дістати дані</string>
               </property>
              </widget>
             </item>
@@ -494,7 +494,7 @@ p, li { white-space: pre-wrap; }
                <bool>false</bool>
               </property>
               <property name="text">
-               <string>Full</string>
+               <string>повна</string>
               </property>
               <property name="checked">
                <bool>true</bool>
@@ -510,7 +510,7 @@ p, li { white-space: pre-wrap; }
                </font>
               </property>
               <property name="text">
-               <string>Short</string>
+               <string>Коротка</string>
               </property>
              </widget>
             </item>
@@ -527,7 +527,7 @@ p, li { white-space: pre-wrap; }
                </font>
               </property>
               <property name="text">
-               <string>Get info</string>
+               <string>Дістати дані</string>
               </property>
              </widget>
             </item>
@@ -582,8 +582,8 @@ p, li { white-space: pre-wrap; }
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>98</width>
-            <height>28</height>
+            <width>100</width>
+            <height>30</height>
            </rect>
           </property>
           <attribute name="label">
@@ -615,8 +615,8 @@ p, li { white-space: pre-wrap; }
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>98</width>
-            <height>28</height>
+            <width>100</width>
+            <height>30</height>
            </rect>
           </property>
           <attribute name="label">
@@ -709,8 +709,8 @@ p, li { white-space: pre-wrap; }
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>98</width>
-            <height>28</height>
+            <width>100</width>
+            <height>30</height>
            </rect>
           </property>
           <attribute name="label">
@@ -803,8 +803,8 @@ p, li { white-space: pre-wrap; }
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>98</width>
-            <height>28</height>
+            <width>421</width>
+            <height>135</height>
            </rect>
           </property>
           <attribute name="label">
