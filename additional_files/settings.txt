@@ -1,5 +1,5 @@
 language=Ua
 collect_cookies=1
 cokie_loggining=1
-login=your
-passwd=your
+login=your login
+passwd=your password
