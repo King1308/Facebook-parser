@@ -5,7 +5,7 @@ import requests
 class Setings:
     def __init__(self):
         self.settings = {}
-        with open("settings.txt", "r", encoding="utf-8") as file:
+        with open("additional_files/settings.txt", "r", encoding="utf-8") as file:
             self.file = file.read()
         self.settingsF = self.file.split('\n')
         for setingF in self.settingsF:
@@ -31,7 +31,7 @@ class Cookies:
         for c in session.cookies:
             kok.append({'name': c.name, 'value': c.value,
                         'domain': c.domain, 'path': c.path, 'secure': c.secure})
-        with open("cookie.txt", "w", encoding="utf-8") as file:
+        with open("additional_files/cookie.txt", "w", encoding="utf-8") as file:
             file.write(str(kok))
 
 
@@ -47,7 +47,7 @@ class Parser:
 
     def get_user(self, url, c=0):
         if c:
-            request = get_profile(url, cookies="cookie.txt")
+            request = get_profile(url, cookies="additional_files/cookie.txt")
         else:
             request = get_profile(url)
         for k, v in request.items():
@@ -61,7 +61,7 @@ class Parser:
 
     def get_postes(self, search, il=1, c=0):
         if c:
-            posts = get_posts(search, pages=il, cookies="cookie.txt")
+            posts = get_posts(search, pages=il, cookies="additional_files/cookie.txt")
         else:
             posts = get_posts(search, pages=il)
         for post in posts:
@@ -77,7 +77,7 @@ class Parser:
 
     def get_group(self, url, c=0):
         if c:
-            request = get_group_info(url, cookies="cookie.txt")
+            request = get_group_info(url, cookies="additional_files/cookie.txt")
         else:
             request = get_group_info(url)
         for k, v in request.items():
