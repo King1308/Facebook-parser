@@ -16,23 +16,23 @@ class Setings:
         return(self.settings)
 
 
-class Cookies:
-    def __init__(self, s):
-        self.loging = s["cokie_loggining"]
-        self.login = s["login"]
-        self.passwd = s["passwd"]
+# class Cookies:
+#     def __init__(self, s):
+#         self.loging = s["cokie_loggining"]
+#         self.login = s["login"]
+#         self.passwd = s["passwd"]
 
-    def get(self):
-        session = requests.Session()
-        if self.loging:
-            session.auth = (self.login, self.passwd)
-        response = session.get('http://facebook.com')
-        kok = []
-        for c in session.cookies:
-            kok.append({'name': c.name, 'value': c.value,
-                        'domain': c.domain, 'path': c.path, 'secure': c.secure})
-        with open("additional_files/cookie.txt", "w", encoding="utf-8") as file:
-            file.write(str(kok))
+#     def get(self):
+#         session = requests.Session()
+#         if self.loging:
+#             session.auth = (self.login, self.passwd)
+#         response = session.get('https://www.facebook.com/')
+#         kok = []
+#         for c in session.cookies:
+#             kok.append({'name': c.name, 'value': c.value,
+#                         'domain': c.domain, 'path': c.path})
+#         with open("additional_files/cookie.txt", "w", encoding="utf-8") as file:
+#             file.write(str(kok))
 
 
 class Parser:
@@ -46,7 +46,7 @@ class Parser:
             file.write("\n")
 
     def get_user(self, url, c=0):
-        if c:
+        if c == 1:
             request = get_profile(url, cookies="additional_files/cookie.txt")
         else:
             request = get_profile(url)
@@ -60,8 +60,9 @@ class Parser:
             file.write(f"{request}\n")
 
     def get_postes(self, search, il=1, c=0):
-        if c:
-            posts = get_posts(search, pages=il, cookies="additional_files/cookie.txt")
+        if c == 1:
+            posts = get_posts(search, pages=il,
+                              cookies="additional_files/cookie.txt")
         else:
             posts = get_posts(search, pages=il)
         for post in posts:
@@ -76,8 +77,9 @@ class Parser:
             file.write(f"{self.posts}\n")
 
     def get_group(self, url, c=0):
-        if c:
-            request = get_group_info(url, cookies="additional_files/cookie.txt")
+        if c == 1:
+            request = get_group_info(
+                url, cookies="additional_files/cookie.txt")
         else:
             request = get_group_info(url)
         for k, v in request.items():

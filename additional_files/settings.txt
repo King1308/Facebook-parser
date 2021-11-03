@@ -1,5 +1,2 @@
-language=Ua
-collect_cookies=1
-cokie_loggining=1
-login=your login
-passwd=your password
+language=Eng
+use_cookies=1
