@@ -44,6 +44,7 @@ class Parser:
             file.write("\n")
         with open("exports/groupes.txt", "w", encoding="utf-8") as file:
             file.write("\n")
+        global request, posts
 
     def get_user(self, url, c=0):
         if c == 1:

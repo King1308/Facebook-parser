@@ -140,7 +140,10 @@ def getpost():
         il = ui.postPInp.value()
         pars.get_postes(url, il, settings["use_cookies"])
         export = pars.export()
-        ui.postExL.setText(str(export[1]["text"]))
+        try:
+            ui.postExL.setText(str(export[1]["text"]))
+        except:
+            ui.postExL.setText("Text definded")
         exel_posts(export[1])
         compleat()
     except Exception as e:
